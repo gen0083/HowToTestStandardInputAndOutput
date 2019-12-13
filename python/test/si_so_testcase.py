@@ -5,6 +5,10 @@ from test.string_io import StringIO
 
 
 class SISOTestCase(unittest.TestCase):
+    """
+    https://gist.github.com/metatoaster/64139971b53ad728dba636e34b8a5558
+    """
+
     def stub_stdin(self, inputs):
         stdin = sys.stdin
 
