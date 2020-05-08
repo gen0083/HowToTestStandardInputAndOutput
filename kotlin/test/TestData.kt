@@ -1,0 +1,1 @@
+data class TestData(val input: String, val expected: String)
